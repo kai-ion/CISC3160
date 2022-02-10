@@ -1,0 +1,47 @@
+Explain each of the following concepts:
+
+1. Static scope
+2. Dynamic scope
+3. Static binding
+4. Dynamic binding
+5. Call-by-value
+6. Call-by-reference
+7. Call-by-name
+
+
+1. Also known as lexical scope. if a language is possible to
+determine the scope of a declaration by looking only at the program
+
+2. as the program runs, the same use of x could refer to any of several different declarations of x
+
+3. Static versus dynamic binding of names to locations. Most binding of
+names to locations is dynamic, and we discuss several approaches to this
+binding throughout the section. Some declarations, such as the global i
+in Fig. 1.9, can be given a location in the store once and for all, as the
+compiler generates object code
+
+4. Static versus dynamic binding of locations to values. The binding of locations to values (the second stage in Fig. 1.8), is generally dynamic as well, since we cannot tell the value in a location until we run the program.
+Declared constants are an exception. For instance, the C deffnition binds the name ARRAYSIZE to the value 1000 statically. We can determine
+this binding by looking at the statement, and we know that it is impossible
+for this binding to change when the program executes.
+
+5. In cal l-by-value, the actual parameter is evaluated (if it is an expression) or
+copied (if it is a variable). The value is placed in the location belonging to
+the corresponding formal parameter of the called procedure. This method is
+used in C and Java, and is a common option in C++, as well as in most
+other languages. Call-by-value has the effect that all computation involving the
+formal parameters done by the called procedure is local to that procedure, and
+the actual parameters themselves cannot be changed.
+
+6. In cal l-by-reference, the address of the actual parameter is passed to the callee as
+the value of the corresponding formal parameter. Uses of the formal parameter
+in the code of the callee are implemented by following this pointer to the location
+indicated by the caller. Changes to the formal parameter thus appear as changes
+to the actual parameter.
+
+7. A third mechanism | call-by-name | was used in the early programming
+language Algol 60. It requires that the callee execute as if the actual parameter were substituted literally for the formal parameter in the code of the callee, as
+if the formal parameter were a macro standing for the actual parameter (with
+renaming of local names in the called procedure, to keep them distinct). When
+the actual parameter is an expression rather than a variable, some unintuitive
+behaviors occur, which is one reason this mechanism is not favored today

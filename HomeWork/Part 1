@@ -1,0 +1,70 @@
+Answer each of the following review questions:
+
+1. Why are there so many programming languages?
+2. What makes a programming language successful?
+3. Why is it important to study programming languages?
+4. Why is it important to study the implementation of programming languages?
+5. Name two languages in each of the following paradigms: procedural, OOP, logic, and functional.
+6. What are the features of OOP languages?
+7. What are the features of functional languages?
+8. What are the features of logic languages?
+
+
+1. 
+Evolution
+    - Procedural  structural  object-oriented
+
+New paradigms and applications
+
+Logic languages (Prolog, CLP) for complex data and knowledge processing
+Functional languages (Lisp, ML, Haskell) for symbolic computation
+Scripting languages (JavaScript, Pearl, Tcl, Python, Ruby, XSLT) for Web-based data processing
+
+Personal preferences	
+
+2. 
+Expressiveness
+Availability of implementations
+Efficiency
+Productivity
+Industrial sponsorships
+
+
+3. 
+Understand language features and concepts at a higher level
+Improve the ability to choose appropriate languages
+Increase the ability to learn new languages
+Simulate useful features
+
+4. 
+Understand how languages are specified and implemented
+Understand obscure phenomena
+Write better-style and efficient programs
+Design and implement domain-specific languages
+
+5. 
+procedural - C, Pascal
+OOP - Java, C#
+logic - prolog, picat
+functional - Haskell, Scheme
+
+6. 
+Abstract data types
+Inheritance and overriding
+Polymorphism 
+Dynamic binding
+
+7. 
+Single assignment variables (no side effects) 
+Recursion
+Rule-based and pattern matching (ML, Haskell)
+High-order functions
+Lazy evaluation (Haskell)
+Meta-programming (Scheme)
+
+8. 
+Logic variables
+Recursion
+Unification
+Backtracking
+Meta-programming

@@ -1,0 +1,28 @@
+program -> scanner -> a sequence of tokens
+
+tokenizer
+
+lexical analyzers
+
+prefix - 
+
+suffixes
+
+length of prefix/suffixes = n + 1
+
+substring: null, a, b, c, ab, bc, abc : 1 + n + (n-1) + (n-2).... + 1 = (n * (n-1))/2 + 1
+
+union : l U M = { x | x e L or x e M}
+
+concateration LM = {st | s e L and t e M}
+
+ L ^ k = [L....] len = k
+closure l^* = [L^ 0 U L ^ 1 U L^2......]
+ positive closure L ^ + = [L^ 1 U L ^ 2 U L^3......]
+
+ L U M : total = cartesian product
+
+ L ^ 4 : size of L to the 4th powerb
+
+
+regex : regular expression
