@@ -1,0 +1,113 @@
+**********
+**********
+Exercises 1.1.1 (p3)
+**********
+**********
+
+*********Exercise 1.1.1 : What is the difference between a compiler and an interpreter?
+
+a compiler is a program that can read a program in one language  and translate it into an equivalent program in
+another language. An important role of the
+compiler is to report any errors in the source program that it detects during
+the translation process.
+
+An interpreter is another common kind of language processor. Instead of
+producing a target program as a translation, an interpreter appears to directly
+execute the operations speciffed in the source program on inputs supplied by
+the user
+
+**********Exercise 1.1.2 : What are the advantages of (a) a compiler over an interpreter
+(b) an interpreter over a compiler?
+
+The machine-language target program produced by a compiler is usually much faster than an interpreter at mapping inputs to outputs . An interpreter,
+however, can usually give better error diagnostics than a compiler, because it
+executes the source program statement by statement.
+
+********Exercise 1.1.3 : What advantages are there to a language-processing system in
+which the compiler produces assembly language rather than machine language?
+
+The compiler may
+produce an assembly-language program as its output, because assembly language is easier to produce as output and is easier to debug.
+
+
+********Exercise 1.1.4 : A compiler that translates a high-level language into another
+high-level language is called a source-to-source translator. What advantages are
+there to using C as a target language for a compiler?
+
+• low level, 
+• easy to generate, 
+• can be written in an architecture-independent manner, 
+• highly available
+
+*******Exercise 1.1.5 : Describe some of the tasks that an assembler needs to perform
+
+an assembler produces
+relocatable machine code as its output
+
+**********
+**********
+ Exercise 1.3.3 (p.14)
+**********
+**********
+
+*******Exercise 1.3.1 : Indicate which of the following terms:
+a) imperative b) declarative c) von Neumann
+d) ob ject-oriented e) functional f ) third-generation
+g) fourth-generation h) scripting
+
+apply to which of the following languages:
+1) C 2) C++ 3) Cobol 4) Fortran 5) Java
+6) Lisp 7) ML 8) Perl 9) Python 10) VB.
+
+a) imperative - C, C++, Java, Fortran, Python
+b) declarative - Lisp
+c) von Neumann - Fortran, C
+d) ob ject-oriented - C++, Java, python
+e) functional - ML
+f ) third-generation - Fortran, Lisp, C, C++, Java
+g) fourth-generation - 
+h) scripting - Python
+
+**********
+**********
+Exercises 1.6.8 (p.35)
+**********
+**********
+
+*******Exercise 1.6.1 : For the block-structured C code of Fig. 1.13(a), indicate the values assigned to w, x, y, and z. 
+w = 13
+x = 9
+y = 13
+z = 9
+
+******Exercise 1.6.2 : Repeat Exercise 1.6.1 for the code of Fig. 1.13(b).
+
+w = 9
+x = 7
+y = 13
+z = 7
+
+******Exercise 1.6.3 : For the block-structured code of Fig. 1.14, assuming the usual
+static scoping of declarations, give the scope for each of the twelve declarations.
+
+int w - Block 1, block 3, block 4
+int x - block 1 - block 4
+int y - block 1, block 5
+int z - block 1 - 2, block 5
+
+int x - block 2 - 3
+int z - block 3
+int w - block 3
+int x - block 3
+
+int w - block 4
+int x - block 4
+int y - block 5
+int z - block 5
+
+
+******Exercise 1.6.4 : What is printed by the following C code?
+3
+2
+
+
